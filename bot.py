@@ -8,6 +8,7 @@ def start(message):
     bot.reply_to(message, "Привет! Я бот для управления чатом.")
 
 print('16.06')
+print("testing push")
 
 @bot.message_handler(commands=['ban'])
 def ban_user(message):
